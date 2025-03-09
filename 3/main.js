@@ -1,10 +1,20 @@
-//  let, const
+// string, number, boolean, undefined, null
 
-let age = 30;
-console.log("Age is, ", age);
+const name = 'Senuka';
+const age = 25;
+const rating = 4.5;
+const isStudent = true;
 
-let x = 10;
-x = 20;
+// undefined and null
+const x = null;
+const y = undefined;
+let z;
 
-const y = 30;  // fixed value
-// y = 40; Error (cannot reassign a const variable)
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof rating);
+console.log(typeof isStudent);
+console.log(typeof x);  // null is called as a object in javascript
+console.log(typeof y);
+console.log(typeof z);
+
